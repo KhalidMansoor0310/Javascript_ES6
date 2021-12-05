@@ -47,3 +47,18 @@ two().then(()=>{
         })
     })
 })
+
+// "async and await make promises easier to write"
+
+// async makes a function return a Promise
+
+// await makes a function wait for a Promise
+
+// now time to use async and await 
+//The keyword async before a function makes the function return a promise:
+//The keyword await before a function makes the function wait for a promise:
+const  run = async ()=>{
+    await two();
+    await three();
+    await one();
+}
